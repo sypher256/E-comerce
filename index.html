@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clinton</title>
+    <link rel="stylesheet" href="Css/homepage.css">
+</head>
+<body>
+    <header class="homepage-header">
+        <div class="homep">
+            <div class="right-section">
+                <button class="menu-button" title="Menu box">
+                    <img src="icons\icons8-menu-ios-16-72.png" alt="Menu">
+                </button>
+                <h2 class="title">CLINTON CHICKEN POINT</h2>
+            </div>
+            <div class="left-section">
+            </div>
+        </div>
+
+        <div class="payement-div"></div>
+
+       <div class="search-div">
+        <form class="input-form">
+            <img src="icons\icons8-search-ios-16-glyph-70.png">
+            <input class="Search-element" onkeyup="search();" placeholder="Search a product, recipe " type="text">
+        </form>
+            
+       </div> 
+    </header>
+
+    <div class="All-container" id="All-container">
+        <div class="product">
+            <img src="products\Crispy-Fried-Chicken-Recipe-7 (1).jpg" alt="product">
+            <div>
+                <h2 class="product-name">Fried chicken</h2>
+                <p>UGX 7000 <span>each</span></p>
+                <button onclick="Payement('Fried Chicken', 'UGX 7000');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\HASSAN\Desktop\clinton\products\download (1).jpeg" alt="product">
+            <div>
+                <h2 class="product-name">Fried Eggs</h2>
+                <p>UGX 2500 <span>each</span></p>
+                <button onclick="Payement('Fried Eggs', 'UGX 2500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\HASSAN\Desktop\clinton\products\download.jpeg" alt="product">
+            <div>
+                <h2 class="product-name">Pizer</h2>
+                <p>UGX 3500 <span>each</span></p>
+                <button onclick="Payement('Pizer', 'UGX 3500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\smbusa.jpeg" alt="product">
+            <div>
+                <h2 class="product-name">cahoo Sumbusa</h2>
+                <p>UGX 500 <span>each</span></p>
+                <button onclick="Payement('cahoo Sumbusa', 'UGX 500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\images (2).jpeg" alt="product">
+            <div>
+                <h2 class="product-name">Chicken</h2>
+                <p>UGX 6500 <span>each</span></p>
+                <button onclick="Payement('Chicken', 'UGX 6500');">Buy spice</button>
+            </div> 
+        </div>
+        <div class="product">
+            <img src="products\egg rolex.jpg" alt="product">
+            <div>
+                <h2 class="product-name">Plain Egg Chapati Rolex</h2>
+                <p>UGX 2500 <span>each</span></p>
+                <button onclick="Payement('Plain Egg Chapati Rolex ', 'UGX 2500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\images (6).jpeg" alt="product">
+            <div>
+                <h2 class="product-name">greens egg chapati Rolex</h2>
+                <p>UGX 3500 <span>each</span></p>
+                <button onclick="Payement('greens egg chapati Rolex ', 'UGX 3500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\images (5).jpeg" alt="product">
+            <div>
+                <h2 class="product-name">fresh tomato egg Rolex</h2>
+                <p>UGX 4500 <span>each</span></p>
+                <button onclick="Payement('fresh tomato egg Rolex ', 'UGX 4500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\egg roll.jpeg" alt="product">
+            <div>
+                <h2 class="product-name">Egg Roll</h2>
+                <p>UGX 500 <span>each</span></p>
+                <button onclick="Payement('Egg Roll', 'UGX 500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\Chapati-Za-Ngozi-Kenyan-Soft-Layered-Flatbread-3-of-3 (1).jpg" alt="product">
+            <div>
+                <h2 class="product-name">Chapati</h2>
+                <p>UGX 2000 <span>each</span></p>
+                <button onclick="Payement('Chapati', 'UGX 2000');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\mandazi.jpeg" alt="product">
+            <div>
+                <h2 class="product-name">Mandazi</h2>
+                <p>UGX 1000 <span>each</span></p>
+                <button onclick="Payement('Mandazi', 'UGX 1000');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\kikomando.jpeg" alt="product">
+            <div>
+                <h2 class="product-name">Kikomando</h2>
+                <p>UGX 2500 <span>each</span></p>
+                <button onclick="Payement('Kikomando', 'UGX 2500');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\images (4).jpeg" alt="product">
+            <div>
+                <h2 class="product-name">buga</h2>
+                <p>UGX 2000 <span>each</span></p>
+                <button onclick="Payement('buga', 'UGX 2000');">Buy spice</button>
+            </div> 
+        </div>
+
+        <div class="product">
+            <img src="products\rolex1 (1).jpg" alt="product">
+            <div>
+                <h2 class="product-name">rolex with beef</h2>
+                <p>UGX 5000 <span>each</span></p>
+                <button onclick="Payement('rolex with beef', 'UGX 5000');">Buy spice</button>
+            </div> 
+        </div>
+
+        
+    </div>
+    <script src="scripts/scripts00.js"></script>
+</body>
+</html>
